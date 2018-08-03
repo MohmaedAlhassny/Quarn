@@ -4,6 +4,7 @@ const yt = require('ytdl-core');
 
 client.on('ready', () => {
 console.log('Logging into discord..');
+	client.user.setActivity('Quarn',{type: 'LISTENING'});
 });
 
 
